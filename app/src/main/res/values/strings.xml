@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HockeyGame</string>
+
+    <string name="dialog_cancel_button">Cancel</string>
+    <string name="dialog_media_removing_message">Do you really want to remove this item?</string>
+    <string name="dialog_media_removing_remove_button">Remove</string>
+    <string name="toast_media_removed_message">The item was removed</string>
+
+    <string name="player_details_name">Name: </string>
+    <string name="player_details_team">Team: </string>
+    <string name="player_details_position_number">Position number: </string>
+    <string name="player_details_player_position">Player position: </string>
+    <string name="player_details_offence_rating">Offence rating: </string>
+    <string name="player_details_defence_rating">Defence rating: </string>
+</resources>
