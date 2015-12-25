@@ -4,12 +4,17 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
+import com.google.inject.Singleton;
+
 import java.io.IOException;
 import java.sql.SQLException;
+
+import roboguice.inject.ContextSingleton;
 
 /**
  * Created by student on 18.12.2015.
  */
+
 public class DatabaseManager {
     private SQLiteDatabase database;
     private DatabaseHelper databaseHelper;

@@ -8,15 +8,15 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.activity.TeamListActivity">
+        <activity android:name=".ui.TeamListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activity.PlayerListActivity"></activity>
-        <activity android:name=".ui.activity.PlayerDetailsActivity"></activity>
+        <activity android:name=".ui.PlayerListActivity"></activity>
+        <activity android:name=".ui.PlayerDetailsActivity"></activity>
     </application>
 
 </manifest>

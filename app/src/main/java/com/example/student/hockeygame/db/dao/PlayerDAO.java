@@ -11,12 +11,9 @@ import com.example.student.hockeygame.entity.Team;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by student on 18.12.2015.
- */
 public class PlayerDAO extends TableItemDAO {
-    public final static String PLAYER_TABLE_NAME = "base_cards";
 
+    public final static String PLAYER_TABLE_NAME = "base_cards";
     private final static String FIELD_TEAM_ID = "team_id";
     private final static String FIELD_POSITION_NUMBER = "position_number";
     private final static String FIELD_PLAYER_POSITION_NUMBER = "player_position";
